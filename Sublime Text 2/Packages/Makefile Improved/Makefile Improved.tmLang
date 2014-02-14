@@ -1,0 +1,134 @@
+uuid: FF1825E8-6B1C-11D9-B883-000D93589AF6
+fileTypes: <GNUmakefile makefile Makefile OCamlMakefile make mak>
+name: Makefile Improved
+scopeName: source.makefile
+
+MAIN
+	#comment
+
+	<string.unquoted.makefile>
+		^((export)\s+)?((?:\w|[-_])+)\s*(\??=)
+		2: keyword.control.makefile
+		3: variable.other.makefile
+		4: keyword.operator.assignment.makefile
+
+		#variable
+
+		punctuation.separator.continuation.makefile
+			\\\n
+
+		(?<!\\)$(?=\n)
+
+	entity.name.function.makefile
+		^(?=\S)(?=[^:]+:)
+
+		(::?)(?!\=)
+
+		#variable
+
+	meta.function.prerequisites.makefile
+		(?<=:)\s*
+		(?=^\t)|(?<!\\)$(?=\n)
+
+		#variable
+
+		punctuation.separator.continuation.makefile
+			\\\n
+
+	meta.function.body.makefile
+		^(?=\t)
+		^(?!\t)
+
+		#at
+		#string
+		#variable
+		#comment
+		#backtick
+		#shell
+
+		punctuation.separator.continuation.makefile
+			\\\n
+
+	keyword.control.makefile
+		^(\s*)\b(\-??include|ifeq|ifneq|ifdef|ifndef|else|endif|vpath|export|unexport|define|endef|override)\b
+
+variable
+	support.variable.makefile
+		\$[$<*^@+]
+
+	variable.source.cmake
+		(\$\{)
+		1: punctuation.definition.variable.begin.cmake
+
+		(\})
+		1: punctuation.definition.variable.end.cmake
+
+		#variable
+
+	variable.source.cmake
+		(\$\()
+		1: punctuation.definition.variable.begin.cmake
+
+		(\))
+		1: punctuation.definition.variable.end.cmake
+
+		#variable
+
+
+at
+	support.variable.makefile
+		^\t+\@
+
+comment
+	comment.line.number-sign.makefile
+		^\s*(\#)
+		1: punctuation.definition.comment.makefile
+		$\n
+		punctuation.separator.continuation.makefile
+			(?<!\\)\\$\n
+
+	comment.line.number-sign.makefile
+		\#
+		0: punctuation.definition.comment.makefile
+		$\n
+		punctuation.separator.continuation.makefile
+			(?<!\\)\\$\n
+
+string
+	string.source.cmake
+		(?<!\\)(["'])
+		(?<!\\)\1
+
+		#string_escapes
+		#variable
+
+string_escapes
+	constant.character.escape.restructuredtext
+		\\.
+
+backtick
+	string.interpolated.backtick.makefile
+		`
+		`
+		#source.shell
+
+shell
+	support.function.builtin.makefile
+		(?x) (?<=[\s\(])\b(?: for | in | do | done | while | if | then |
+			| fi | elif | read | echo | case | esac | exit | die | printf
+			)\b
+
+	keyword.operator.makefile
+		(?x) (?: \;\; | \; | \[\[ | \]\] | \&\& | \|\| | \! | > | < | & | \| )
+
+	support.function.makefile
+		(?x) (?<=[\s\(])\b(?: cp | mv | rm | cat | ls | \[ | \] | find | grep | awk | perl | mkdir 
+			| rmdir | cd | cwd | pwd | svn | git | hg | scp | make | ps 
+			| sed | python | ruby
+			)\b
+
+	entity.other.attribute-name.makefile
+		(?x) (?<=\s)(?: \-[\w\-]+ )
+
+	punctuation.separator.continuation.makefile
+		\\\n

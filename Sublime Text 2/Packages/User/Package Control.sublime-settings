@@ -1,0 +1,25 @@
+{
+	"installed_packages":
+	[
+		"CSSLint",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"JavaScript & NodeJS Snippets",
+		"Javascript Beautify",
+		"JavaScript Console",
+		"JavaScript Snippets",
+		"JavaScriptNext - ES6 Syntax",
+		"JSLint",
+		"Makefile Improved",
+		"Markdown Extended",
+		"Markdown Preview",
+		"nginx",
+		"Package Control",
+		"Phpcs",
+		"PhpDoc",
+		"PHPUnit",
+		"PHPUnit Completions",
+		"Sublime Files",
+		"SublimeLinter"
+	]
+}
