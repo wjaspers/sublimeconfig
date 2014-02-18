@@ -34,3 +34,6 @@
 [submodule "Packages/PHPUnit Completions"]
 	path = Packages/PHPUnit Completions
 	url = https://github.com/tkowalewski/phpunit-sublime-completions.git
+[submodule "Packages/PHPUnit"]
+	path = Packages/PHPUnit
+	url = https://github.com/stuartherbert/sublime-phpunit
