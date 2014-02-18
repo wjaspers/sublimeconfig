@@ -13,3 +13,6 @@
 [submodule "Packages/Javascript & NodeJS Snippets"]
 	path = Packages/Javascript & NodeJS Snippets
 	url = https://github.com/zenorocha/sublime-snippets-js.git
+[submodule "Packages/Javascript Console"]
+	path = Packages/Javascript Console
+	url = https://github.com/caiogondim/js-console-sublime-snippets.git

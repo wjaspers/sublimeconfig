@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[console.profileEnd]]></content>
-	<tabTrigger><![CDATA[>profileEnd]]></tabTrigger>
-	<scope>source.coffee</scope>
-	<description>console.profileEnd</description>
-</snippet>
