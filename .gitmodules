@@ -49,3 +49,6 @@
 [submodule "Packages/Sublime Files"]
 	path = Packages/Sublime Files
 	url = https://github.com/al63/SublimeFiles
+[submodule "Packages/SublimeLinter"]
+	path = Packages/SublimeLinter
+	url = https://github.com/SublimeLinter/SublimeLinter3.git
