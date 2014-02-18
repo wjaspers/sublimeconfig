@@ -4,3 +4,6 @@
 [submodule "Packages/Dotfiles Syntax Highlighting"]
 	path = Packages/Dotfiles Syntax Highlighting
 	url = https://github.com/mattbanks/dotfiles-syntax-highlighting-st2.git
+[submodule "Packages/EditorConfig"]
+	path = Packages/EditorConfig
+	url = https://github.com/sindresorhus/editorconfig-sublime
