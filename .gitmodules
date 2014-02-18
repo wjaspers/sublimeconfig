@@ -40,3 +40,6 @@
 [submodule "Packages/Package Control"]
 	path = Packages/Package Control
 	url = https://github.com/wbond/sublime_package_control.git
+[submodule "Packages/PhpDoc"]
+	path = Packages/PhpDoc
+	url = https://github.com/SublimeText/PhpDoc
