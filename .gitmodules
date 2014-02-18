@@ -31,3 +31,6 @@
 [submodule "Packages/Markdown Preview"]
 	path = Packages/Markdown Preview
 	url = https://github.com/revolunet/sublimetext-markdown-preview
+[submodule "Packages/PHPUnit Completions"]
+	path = Packages/PHPUnit Completions
+	url = https://github.com/tkowalewski/phpunit-sublime-completions.git
