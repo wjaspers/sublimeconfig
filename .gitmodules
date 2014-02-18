@@ -22,3 +22,6 @@
 [submodule "Packages/JavaScriptNext - ES6 Syntax"]
 	path = Packages/JavaScriptNext - ES6 Syntax
 	url = https://github.com/Benvie/JavaScriptNext.tmLanguage
+[submodule "Packages/Javascript Beautify"]
+	path = Packages/Javascript Beautify
+	url = https://github.com/enginespot/js-beautify-sublime
