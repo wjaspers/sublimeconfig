@@ -19,3 +19,6 @@
 [submodule "Packages/Javascript Snippets"]
 	path = Packages/Javascript Snippets
 	url = https://github.com/jprichardson/sublime-js-snippets.git
+[submodule "Packages/JavaScriptNext - ES6 Syntax"]
+	path = Packages/JavaScriptNext - ES6 Syntax
+	url = https://github.com/Benvie/JavaScriptNext.tmLanguage
