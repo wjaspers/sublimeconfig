@@ -1,0 +1,3 @@
+[submodule "Packages/CSSLint"]
+	path = Packages/CSSLint
+	url = https://github.com/austinhappel/sublime-csslint
