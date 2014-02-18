@@ -16,3 +16,6 @@
 [submodule "Packages/Javascript Console"]
 	path = Packages/Javascript Console
 	url = https://github.com/caiogondim/js-console-sublime-snippets.git
+[submodule "Packages/Javascript Snippets"]
+	path = Packages/Javascript Snippets
+	url = https://github.com/jprichardson/sublime-js-snippets.git
