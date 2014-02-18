@@ -10,3 +10,6 @@
 [submodule "Packages/JSLint"]
 	path = Packages/JSLint
 	url = https://github.com/darrenderidder/Sublime-JSLint.git
+[submodule "Packages/Javascript & NodeJS Snippets"]
+	path = Packages/Javascript & NodeJS Snippets
+	url = https://github.com/zenorocha/sublime-snippets-js.git
