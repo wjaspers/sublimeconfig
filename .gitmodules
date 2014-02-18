@@ -28,3 +28,6 @@
 [submodule "Packages/Markdown Extended"]
 	path = Packages/Markdown Extended
 	url = https://github.com/jonschlinkert/sublime-markdown-extended.git
+[submodule "Packages/Markdown Preview"]
+	path = Packages/Markdown Preview
+	url = https://github.com/revolunet/sublimetext-markdown-preview
