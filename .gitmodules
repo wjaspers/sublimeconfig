@@ -52,3 +52,6 @@
 [submodule "Packages/SublimeLinter"]
 	path = Packages/SublimeLinter
 	url = https://github.com/SublimeLinter/SublimeLinter3.git
+[submodule "Packages/nginx"]
+	path = Packages/nginx
+	url = https://github.com/brandonwamboldt/sublime-nginx
