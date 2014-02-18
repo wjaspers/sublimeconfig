@@ -1,0 +1,2 @@
+# This repository exists in mercurial, making it difficult to use as a submodule in git.
+# For now, we'll leave it as-is.
