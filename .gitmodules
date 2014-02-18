@@ -7,3 +7,6 @@
 [submodule "Packages/EditorConfig"]
 	path = Packages/EditorConfig
 	url = https://github.com/sindresorhus/editorconfig-sublime
+[submodule "Packages/JSLint"]
+	path = Packages/JSLint
+	url = https://github.com/darrenderidder/Sublime-JSLint.git
