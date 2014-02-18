@@ -25,3 +25,6 @@
 [submodule "Packages/Javascript Beautify"]
 	path = Packages/Javascript Beautify
 	url = https://github.com/enginespot/js-beautify-sublime
+[submodule "Packages/Markdown Extended"]
+	path = Packages/Markdown Extended
+	url = https://github.com/jonschlinkert/sublime-markdown-extended.git
