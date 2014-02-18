@@ -43,3 +43,6 @@
 [submodule "Packages/PhpDoc"]
 	path = Packages/PhpDoc
 	url = https://github.com/SublimeText/PhpDoc
+[submodule "Packages/Phpcs"]
+	path = Packages/Phpcs
+	url = git://github.com/benmatselby/sublime-phpcs.git
