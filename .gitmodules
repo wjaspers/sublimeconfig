@@ -37,3 +37,6 @@
 [submodule "Packages/PHPUnit"]
 	path = Packages/PHPUnit
 	url = https://github.com/stuartherbert/sublime-phpunit
+[submodule "Packages/Package Control"]
+	path = Packages/Package Control
+	url = https://github.com/wbond/sublime_package_control.git
